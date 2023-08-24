@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 echo "Waiting for mongoDb to Start..."
 ./wait-for db:27017
